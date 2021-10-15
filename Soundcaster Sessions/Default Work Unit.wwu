@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Player" ID="{9703A450-4303-407A-ACD6-5882AB67A0D3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Death_Player" ID="{53536978-75D5-48D0-B19B-210DC5361B10}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_Fist_Player" ID="{C8FD66C7-E828-4FE8-915C-C95F36929F6A}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_Rocket_Player" ID="{667FCA65-1A88-4A5F-8660-4C77FCF15E52}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Foot_Player" ID="{4511782C-77A5-4EC7-B86F-1A914C7395DB}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_Chaingun_Player" ID="{F386F3E5-6E5E-4A9B-B068-119DDD238191}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_Rocket_Player" ID="{7E1E47DC-9DAC-459C-9004-8DB8C3366CF8}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_Shotgun_Player" ID="{3B1516F0-8CCE-47E7-99BD-097A1B811B1F}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_Rifle_Player" ID="{8F2A275D-2E83-45AB-96C5-E896BFDD836E}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hit_Rocket_Player" ID="{D1AA037A-7BBB-43EB-96F5-A88E16FB306F}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{12A86CFA-9D0B-438E-8C88-ACE03D5EF5F5}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VoiceVolume" ID="{1BC7160B-65AB-47A5-9D7E-CF39A0FF4D2A}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{9A7FE12B-15B9-4CBD-85BC-730450CE68B2}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Left" ID="{AB05A8F3-EDB5-4706-9091-48CBB0549E6F}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Rocket" ID="{CDEF771C-25E6-444D-A209-D6E14F404B57}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Fire_Rocket_Player" ID="{667FCA65-1A88-4A5F-8660-4C77FCF15E52}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explode" ID="{8057D34D-8D1E-402D-96FD-5018A25EFF07}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_Rocket_Player" ID="{7E1E47DC-9DAC-459C-9004-8DB8C3366CF8}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="rlaunch" ID="{CE5BEBBF-2391-4D8F-9311-EF3CE10B9D5C}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hit_Rocket_Player" ID="{D1AA037A-7BBB-43EB-96F5-A88E16FB306F}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Thrust" ID="{A94C3165-9FFF-41BB-8F72-F90CDE96D322}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rocket Launcher" ID="{7AF3F701-0F83-411C-BD88-8FEF0FFC2E07}" WorkUnitID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{12A86CFA-9D0B-438E-8C88-ACE03D5EF5F5}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VoiceVolume" ID="{1BC7160B-65AB-47A5-9D7E-CF39A0FF4D2A}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{9A7FE12B-15B9-4CBD-85BC-730450CE68B2}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Left" ID="{AB05A8F3-EDB5-4706-9091-48CBB0549E6F}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
