@@ -27,7 +27,7 @@
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -585,7 +585,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									<PositioningInfo>
 										<Panner Name="" ID="{9588BEE3-0C11-4385-A83A-7A17620E5971}">
 											<PropertyList>
-												<Property Name="PanX" Type="Real64" Value="-1.21014309684142E-14"/>
+												<Property Name="PanX" Type="Real64" Value="-1.21014309684142E-014"/>
 												<Property Name="PanY" Type="Real64" Value="86.7579908675799"/>
 											</PropertyList>
 										</Panner>
@@ -645,7 +645,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 							<PositioningInfo>
 								<Panner Name="" ID="{C238DE05-CAAB-4F79-A631-7E9D5C4120B7}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="7.7715611723761E-16"/>
+										<Property Name="PanX" Type="Real64" Value="7.7715611723761E-016"/>
 										<Property Name="PanY" Type="Real64" Value="100"/>
 									</PropertyList>
 								</Panner>
@@ -4301,7 +4301,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 													<ChildrenList>
 														<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{7536630E-B95C-4566-A507-A5B43C91369B}" ShortID="574985621">
 															<PropertyList>
-																<Property Name="FadeOutDuration" Type="Real64" Value="5.90494210929405E-02"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0590494210929405"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.200111927037187"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -4866,7 +4866,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ChildrenList>
 												<AudioFileSource Name="Shotgun_Pump" ID="{D99501B3-BD1D-4138-A61C-2F270293BB70}" ShortID="830773208">
 													<PropertyList>
-														<Property Name="TrimBegin" Type="Real64" Value="6.67709850680523E-02"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0667709850680523"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Shotgun_Pump.wav</AudioFile>
@@ -5316,7 +5316,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 							<PositioningInfo>
 								<Panner Name="" ID="{1FF0FBD9-2FAD-41B0-863F-69ABF81AFDBB}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="-5.55111512312578E-17"/>
+										<Property Name="PanX" Type="Real64" Value="-5.55111512312578E-017"/>
 									</PropertyList>
 								</Panner>
 							</PositioningInfo>
