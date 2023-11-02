@@ -9,3 +9,4 @@ GeneratedSoundBanks
 .backup
 *.crossover.wsettings
 .DS_Store
+*.log

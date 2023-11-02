@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}" SchemaVersion="97">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{8D65CABB-7643-4775-8C45-3B7F325D73EF}" PersistMode="Standalone">
 			<ChildrenList>
@@ -43,9 +43,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="acid5" ID="{0FE2376E-FDEC-42AF-9662-45F97D5A3DAF}" ShortID="150115904">
+										<AudioFileSource Name="acid5" ID="{0FE2376E-FDEC-42AF-9662-45F97D5A3DAF}">
 											<Language>SFX</Language>
 											<AudioFile>acid5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="150115904"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -73,9 +76,12 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="acid6" ID="{426F72B2-6E1B-4ADB-B111-E906FCD85C05}" ShortID="52528460">
+										<AudioFileSource Name="acid6" ID="{426F72B2-6E1B-4ADB-B111-E906FCD85C05}">
 											<Language>SFX</Language>
 											<AudioFile>acid6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="52528460"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -131,9 +137,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="itemback_01" ID="{B9D2AEA2-6D60-4B3D-B593-9D073552A71C}" ShortID="197175405">
+										<AudioFileSource Name="itemback_01" ID="{B9D2AEA2-6D60-4B3D-B593-9D073552A71C}">
 											<Language>SFX</Language>
 											<AudioFile>itemback.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197175405"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -170,9 +179,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="itempick" ID="{313C0A7C-CFC1-4C8B-BD56-19654DD284EF}" ShortID="408532875">
+										<AudioFileSource Name="itempick" ID="{313C0A7C-CFC1-4C8B-BD56-19654DD284EF}">
 											<Language>SFX</Language>
 											<AudioFile>itempick.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408532875"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -217,9 +229,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="rumble" ID="{767BC460-855F-41F5-80A8-66B418CAB97E}" ShortID="298386193">
+										<AudioFileSource Name="rumble" ID="{767BC460-855F-41F5-80A8-66B418CAB97E}">
 											<Language>SFX</Language>
 											<AudioFile>rumble.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298386193"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -255,24 +270,33 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="teleport" ID="{4A4B996C-4426-47A4-82B7-4C23A5C8D488}" ShortID="651513102">
+										<AudioFileSource Name="teleport" ID="{4A4B996C-4426-47A4-82B7-4C23A5C8D488}">
 											<Language>SFX</Language>
 											<AudioFile>teleport.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="651513102"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="AK_Teleport_01" ID="{AEDD11A2-37B6-4780-A520-11BD206F13FE}" ShortID="700615291">
+										<AudioFileSource Name="AK_Teleport_01" ID="{AEDD11A2-37B6-4780-A520-11BD206F13FE}">
 											<Language>SFX</Language>
 											<AudioFile>AK_Teleport_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="700615291"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="AK_Teleport_02" ID="{68DB773D-620A-4B54-9D21-A999E7B31C76}" ShortID="1046121736">
+										<AudioFileSource Name="AK_Teleport_02" ID="{68DB773D-620A-4B54-9D21-A999E7B31C76}">
 											<Language>SFX</Language>
 											<AudioFile>AK_Teleport_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1046121736"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="teleport_01" ID="{FDD6B743-374F-4490-9480-81B684C02BC7}" ShortID="530630535">
+										<AudioFileSource Name="teleport_01" ID="{FDD6B743-374F-4490-9480-81B684C02BC7}">
 											<Language>SFX</Language>
 											<AudioFile>teleport.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="651513102"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="651513102"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -297,13 +321,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="boing_x" ID="{372D8F77-90A2-4825-A62F-376E0EDFA1E1}" ShortID="403517174">
+										<AudioFileSource Name="boing_x" ID="{372D8F77-90A2-4825-A62F-376E0EDFA1E1}">
 											<Language>SFX</Language>
 											<AudioFile>boing_x.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="403517174"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="AK_Boing_x" ID="{931F5868-EAE5-48D5-93D0-BE3634643F7C}" ShortID="21615843">
+										<AudioFileSource Name="AK_Boing_x" ID="{931F5868-EAE5-48D5-93D0-BE3634643F7C}">
 											<Language>SFX</Language>
 											<AudioFile>AK_Boing_x.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="21615843"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -370,9 +400,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="land" ID="{3609498B-CDF6-41ED-AB4F-AC7DE5E776F4}" ShortID="1039211944">
+										<AudioFileSource Name="land" ID="{3609498B-CDF6-41ED-AB4F-AC7DE5E776F4}">
 											<Language>SFX</Language>
 											<AudioFile>land.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1039211944"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -476,9 +509,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="splash1" ID="{CD884D22-D8AE-4F10-AF8B-77A0A622F72A}" ShortID="332383553">
+												<AudioFileSource Name="splash1" ID="{CD884D22-D8AE-4F10-AF8B-77A0A622F72A}">
 													<Language>SFX</Language>
 													<AudioFile>splash1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="332383553"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
@@ -535,9 +571,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="splash2" ID="{8CD63B1B-3207-4072-A393-7F782626A8B8}" ShortID="37028884">
+												<AudioFileSource Name="splash2" ID="{8CD63B1B-3207-4072-A393-7F782626A8B8}">
 													<Language>SFX</Language>
 													<AudioFile>splash2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="37028884"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<PositioningInfo>
@@ -577,15 +616,18 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="get_armour" ID="{4E565569-EC6B-4704-9EB9-DF3BA592F64C}" ShortID="952817125">
+										<AudioFileSource Name="get_armour" ID="{4E565569-EC6B-4704-9EB9-DF3BA592F64C}">
 											<Language>SFX</Language>
 											<AudioFile>get_armour.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="952817125"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
 										<Panner Name="" ID="{9588BEE3-0C11-4385-A83A-7A17620E5971}">
 											<PropertyList>
-												<Property Name="PanX" Type="Real64" Value="-1.21014309684142E-014"/>
+												<Property Name="PanX" Type="Real64" Value="-1.21014309684142E-14"/>
 												<Property Name="PanY" Type="Real64" Value="86.7579908675799"/>
 											</PropertyList>
 										</Panner>
@@ -630,9 +672,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Emitter_Teleport" ID="{94046808-3DBC-421E-B6D6-2F56683E4BFC}" ShortID="413548419">
+												<AudioFileSource Name="Emitter_Teleport" ID="{94046808-3DBC-421E-B6D6-2F56683E4BFC}">
 													<Language>SFX</Language>
 													<AudioFile>Emitter_Teleport.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="413548419"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -645,7 +690,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 							<PositioningInfo>
 								<Panner Name="" ID="{C238DE05-CAAB-4F79-A631-7E9D5C4120B7}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="7.7715611723761E-016"/>
+										<Property Name="PanX" Type="Real64" Value="7.7715611723761E-16"/>
 										<Property Name="PanY" Type="Real64" Value="100"/>
 									</PropertyList>
 								</Panner>
@@ -786,9 +831,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_01" ID="{D12F5874-3F9B-4099-9C6F-285AE54A1757}" ShortID="426836929">
+														<AudioFileSource Name="FS_Dirt_01" ID="{D12F5874-3F9B-4099-9C6F-285AE54A1757}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Dirt_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="426836929"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -811,9 +859,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_02" ID="{BF9F92F9-E961-47A7-814B-541FBCBCE13F}" ShortID="664949112">
+														<AudioFileSource Name="FS_Dirt_02" ID="{BF9F92F9-E961-47A7-814B-541FBCBCE13F}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Dirt_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="664949112"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -836,9 +887,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_03" ID="{C4A5418C-1E22-4F8D-A73C-2591B5B0EE2C}" ShortID="971767311">
+														<AudioFileSource Name="FS_Dirt_03" ID="{C4A5418C-1E22-4F8D-A73C-2591B5B0EE2C}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Dirt_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="971767311"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -861,9 +915,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Dirt_04" ID="{CABEADB3-856F-44EB-8935-C384FF1F2BC9}" ShortID="304033539">
+														<AudioFileSource Name="FS_Dirt_04" ID="{CABEADB3-856F-44EB-8935-C384FF1F2BC9}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Dirt_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="304033539"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -904,9 +961,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Concrete_01" ID="{4066B0AA-6C97-4776-9FD7-97076A4C7A6D}" ShortID="752760929">
+														<AudioFileSource Name="FS_Concrete_01" ID="{4066B0AA-6C97-4776-9FD7-97076A4C7A6D}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Concrete_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="752760929"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -929,9 +989,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Concrete_02" ID="{DC76C875-12E7-4F21-B703-88EDCAF84151}" ShortID="793986943">
+														<AudioFileSource Name="FS_Concrete_02" ID="{DC76C875-12E7-4F21-B703-88EDCAF84151}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Concrete_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="793986943"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -954,9 +1017,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Concrete_03" ID="{D040F713-7710-4D59-9D86-14BC7D71B089}" ShortID="843381186">
+														<AudioFileSource Name="FS_Concrete_03" ID="{D040F713-7710-4D59-9D86-14BC7D71B089}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Concrete_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="843381186"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -979,9 +1045,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Concrete_04" ID="{F33DBF1F-EF25-45FF-92EC-C2F4F48FCCCE}" ShortID="313095974">
+														<AudioFileSource Name="FS_Concrete_04" ID="{F33DBF1F-EF25-45FF-92EC-C2F4F48FCCCE}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Concrete_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="313095974"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1022,9 +1091,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Gravel_01" ID="{0FE5C383-BEF1-4817-943C-A207660B8809}" ShortID="417948999">
+														<AudioFileSource Name="FS_Gravel_01" ID="{0FE5C383-BEF1-4817-943C-A207660B8809}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Gravel_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="417948999"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1047,9 +1119,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Gravel_02" ID="{70F3DEEA-D8D1-413D-9BEC-55116E0BCE53}" ShortID="72800737">
+														<AudioFileSource Name="FS_Gravel_02" ID="{70F3DEEA-D8D1-413D-9BEC-55116E0BCE53}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Gravel_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="72800737"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1072,9 +1147,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Gravel_03" ID="{D3AFB542-7552-4E2A-9D9B-D37B471FE8CF}" ShortID="658150210">
+														<AudioFileSource Name="FS_Gravel_03" ID="{D3AFB542-7552-4E2A-9D9B-D37B471FE8CF}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Gravel_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="658150210"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1097,9 +1175,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Gravel_04" ID="{911B9EF5-E6B7-4A2D-A7AE-E32423E7DA18}" ShortID="560785703">
+														<AudioFileSource Name="FS_Gravel_04" ID="{911B9EF5-E6B7-4A2D-A7AE-E32423E7DA18}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Gravel_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="560785703"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1140,9 +1221,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Tile_01" ID="{62D3BE78-877D-423B-8442-5CCDE5A669AE}" ShortID="690582267">
+														<AudioFileSource Name="FS_Tile_01" ID="{62D3BE78-877D-423B-8442-5CCDE5A669AE}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Tile_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="690582267"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1165,9 +1249,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Tile_02" ID="{0974FA1F-E6F6-486D-AFD6-7A465C257263}" ShortID="1018664592">
+														<AudioFileSource Name="FS_Tile_02" ID="{0974FA1F-E6F6-486D-AFD6-7A465C257263}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Tile_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1018664592"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1190,9 +1277,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Tile_03" ID="{31630DF1-43C8-4625-B508-CC060411866A}" ShortID="351978304">
+														<AudioFileSource Name="FS_Tile_03" ID="{31630DF1-43C8-4625-B508-CC060411866A}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Tile_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="351978304"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1220,9 +1310,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="FS_Tile_04" ID="{065B2FE5-0EDB-4CC3-AB5C-68B401E27AC3}" ShortID="1063343195">
+														<AudioFileSource Name="FS_Tile_04" ID="{065B2FE5-0EDB-4CC3-AB5C-68B401E27AC3}">
 															<Language>SFX</Language>
 															<AudioFile>FS_Tile_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1063343195"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -1365,9 +1458,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="die1" ID="{8421EACA-FF74-4495-A401-5DE53B777D34}" ShortID="265968035">
+												<AudioFileSource Name="die1" ID="{8421EACA-FF74-4495-A401-5DE53B777D34}">
 													<Language>SFX</Language>
 													<AudioFile>die1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="265968035"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1398,9 +1494,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="die2" ID="{4C142566-47A1-4609-AA5B-21257CAD286F}" ShortID="469824432">
+												<AudioFileSource Name="die2" ID="{4C142566-47A1-4609-AA5B-21257CAD286F}">
 													<Language>SFX</Language>
 													<AudioFile>die2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="469824432"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1468,9 +1567,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="pain1" ID="{EA4E2D5F-8BBC-4659-9D32-65B16AC3ED92}" ShortID="411764063">
+												<AudioFileSource Name="pain1" ID="{EA4E2D5F-8BBC-4659-9D32-65B16AC3ED92}">
 													<Language>SFX</Language>
 													<AudioFile>pain1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="411764063"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1493,9 +1595,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="pain2" ID="{FB5EC536-9091-4CA7-9852-FA897389F98B}" ShortID="187954308">
+												<AudioFileSource Name="pain2" ID="{FB5EC536-9091-4CA7-9852-FA897389F98B}">
 													<Language>SFX</Language>
 													<AudioFile>pain2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="187954308"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1518,9 +1623,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="pain3" ID="{113EC3D8-601F-4FDD-BC2A-CBEDB53ED59A}" ShortID="738953253">
+												<AudioFileSource Name="pain3" ID="{113EC3D8-601F-4FDD-BC2A-CBEDB53ED59A}">
 													<Language>SFX</Language>
 													<AudioFile>pain3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="738953253"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1543,9 +1651,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="pain4" ID="{437E4F81-4010-4D10-B2AC-BFD624EC8C3D}" ShortID="158621023">
+												<AudioFileSource Name="pain4" ID="{437E4F81-4010-4D10-B2AC-BFD624EC8C3D}">
 													<Language>SFX</Language>
 													<AudioFile>pain4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="158621023"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1568,9 +1679,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="pain5" ID="{DFF1893E-F970-4E32-AD1B-5079F83D3374}" ShortID="823352439">
+												<AudioFileSource Name="pain5" ID="{DFF1893E-F970-4E32-AD1B-5079F83D3374}">
 													<Language>SFX</Language>
 													<AudioFile>pain5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="823352439"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1593,9 +1707,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="pain6" ID="{F388DBFD-2A84-4960-A59F-70CD7722C57C}" ShortID="268298990">
+												<AudioFileSource Name="pain6" ID="{F388DBFD-2A84-4960-A59F-70CD7722C57C}">
 													<Language>SFX</Language>
 													<AudioFile>pain6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="268298990"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1612,9 +1729,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="pain7" ID="{04F60553-E137-4A8C-9601-CCEF84E0E1D0}" ShortID="884261617">
+												<AudioFileSource Name="pain7" ID="{04F60553-E137-4A8C-9601-CCEF84E0E1D0}">
 													<Language>SFX</Language>
 													<AudioFile>pain7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="884261617"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1652,9 +1772,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Body Punch A" ID="{9E474274-A87D-4359-A6C6-439EFA40B93F}" ShortID="814007957">
+										<AudioFileSource Name="Body Punch A" ID="{9E474274-A87D-4359-A6C6-439EFA40B93F}">
 											<Language>SFX</Language>
 											<AudioFile>Body Punch A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="814007957"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1719,9 +1842,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="jump_1" ID="{A8B285F4-D54A-4514-8473-9D3A438BCDF7}" ShortID="675351052">
+												<AudioFileSource Name="jump_1" ID="{A8B285F4-D54A-4514-8473-9D3A438BCDF7}">
 													<Language>SFX</Language>
 													<AudioFile>jump_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="675351052"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1738,9 +1864,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="jump_2" ID="{2CCD1948-DF7D-4408-921B-AFC32B16C3B9}" ShortID="709207210">
+												<AudioFileSource Name="jump_2" ID="{2CCD1948-DF7D-4408-921B-AFC32B16C3B9}">
 													<Language>SFX</Language>
 													<AudioFile>jump_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="709207210"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1757,9 +1886,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="jump_3" ID="{408551F9-779B-4AE9-81C1-08A5B140D562}" ShortID="863063982">
+												<AudioFileSource Name="jump_3" ID="{408551F9-779B-4AE9-81C1-08A5B140D562}">
 													<Language>SFX</Language>
 													<AudioFile>jump_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="863063982"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1776,9 +1908,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="jump_4" ID="{AA9B30D9-FF13-4AEE-AEC1-A685EC41865E}" ShortID="340146796">
+												<AudioFileSource Name="jump_4" ID="{AA9B30D9-FF13-4AEE-AEC1-A685EC41865E}">
 													<Language>SFX</Language>
 													<AudioFile>jump_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="340146796"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -1873,12 +2008,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Heartbeat" ID="{2DCB3535-3BA6-45C7-A44B-A8B64CA83FBD}" ShortID="72817088">
+										<AudioFileSource Name="Heartbeat" ID="{2DCB3535-3BA6-45C7-A44B-A8B64CA83FBD}">
 											<Language>SFX</Language>
 											<AudioFile>Heartbeat.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="837524203"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="837524203"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1968,9 +2103,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="pains" ID="{5F0D0501-3DF1-4CB6-9096-C3BC1598A865}" ShortID="104322891">
+										<AudioFileSource Name="pains" ID="{5F0D0501-3DF1-4CB6-9096-C3BC1598A865}">
 											<Language>SFX</Language>
 											<AudioFile>pains.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104322891"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -1997,9 +2135,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="piggrunt1" ID="{DC5156B2-7EFD-4071-A962-05F3DF2A49F4}" ShortID="737964251">
+										<AudioFileSource Name="piggrunt1" ID="{DC5156B2-7EFD-4071-A962-05F3DF2A49F4}">
 											<Language>SFX</Language>
 											<AudioFile>piggrunt1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="737964251"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2026,9 +2167,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="piggrunt2" ID="{CD86C2A7-A9F9-412F-9003-BF629A2C079A}" ShortID="103738863">
+										<AudioFileSource Name="piggrunt2" ID="{CD86C2A7-A9F9-412F-9003-BF629A2C079A}">
 											<Language>SFX</Language>
 											<AudioFile>piggrunt2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="103738863"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2058,9 +2202,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="deathe" ID="{93633C79-8626-4A8D-83CA-B1839214D8C4}" ShortID="62798402">
+										<AudioFileSource Name="deathe" ID="{93633C79-8626-4A8D-83CA-B1839214D8C4}">
 											<Language>SFX</Language>
 											<AudioFile>deathe.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="62798402"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2090,9 +2237,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="deathr" ID="{BEE288EB-08FE-4ACD-BBB4-222E63C60356}" ShortID="974467371">
+										<AudioFileSource Name="deathr" ID="{BEE288EB-08FE-4ACD-BBB4-222E63C60356}">
 											<Language>SFX</Language>
 											<AudioFile>deathr.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="974467371"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2122,9 +2272,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="deaths" ID="{30EFBC0E-CBF9-4607-A7BC-A78E2920560F}" ShortID="257781505">
+										<AudioFileSource Name="deaths" ID="{30EFBC0E-CBF9-4607-A7BC-A78E2920560F}">
 											<Language>SFX</Language>
 											<AudioFile>deaths.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="257781505"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -2180,9 +2333,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grunt1" ID="{759D3464-457C-48AE-912F-853FBCC725C7}" ShortID="522671429">
+												<AudioFileSource Name="grunt1" ID="{759D3464-457C-48AE-912F-853FBCC725C7}">
 													<Language>SFX</Language>
 													<AudioFile>grunt1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="522671429"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2205,9 +2361,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grunt2" ID="{EB10D227-B478-4B17-912A-AA625834D544}" ShortID="795267782">
+												<AudioFileSource Name="grunt2" ID="{EB10D227-B478-4B17-912A-AA625834D544}">
 													<Language>SFX</Language>
 													<AudioFile>grunt2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="795267782"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2260,9 +2419,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painb" ID="{37A3C591-0BAA-40DF-B934-0D0F555F2542}" ShortID="982893105">
+												<AudioFileSource Name="painb" ID="{37A3C591-0BAA-40DF-B934-0D0F555F2542}">
 													<Language>SFX</Language>
 													<AudioFile>painb.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="982893105"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2287,9 +2449,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painb_2" ID="{B1A708F8-F978-400C-AD7F-7CC7D548868D}" ShortID="575800854">
+												<AudioFileSource Name="painb_2" ID="{B1A708F8-F978-400C-AD7F-7CC7D548868D}">
 													<Language>SFX</Language>
 													<AudioFile>painb_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="575800854"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2314,9 +2479,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painb_3" ID="{211672C6-5D74-4B78-B427-06E808BB8421}" ShortID="860396919">
+												<AudioFileSource Name="painb_3" ID="{211672C6-5D74-4B78-B427-06E808BB8421}">
 													<Language>SFX</Language>
 													<AudioFile>painb3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="860396919"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2369,9 +2537,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paind_1" ID="{1F8F49C5-CEB6-456D-892C-B391244E68F1}" ShortID="561770627">
+												<AudioFileSource Name="paind_1" ID="{1F8F49C5-CEB6-456D-892C-B391244E68F1}">
 													<Language>SFX</Language>
 													<AudioFile>paind_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="561770627"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2396,9 +2567,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paind_2" ID="{EEE3B650-D248-43BD-85BC-97AB76758632}" ShortID="803145160">
+												<AudioFileSource Name="paind_2" ID="{EEE3B650-D248-43BD-85BC-97AB76758632}">
 													<Language>SFX</Language>
 													<AudioFile>paind_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="803145160"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2423,9 +2597,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paind_3" ID="{3B8D7830-126D-4FB4-B488-F7893ED17357}" ShortID="226244650">
+												<AudioFileSource Name="paind_3" ID="{3B8D7830-126D-4FB4-B488-F7893ED17357}">
 													<Language>SFX</Language>
 													<AudioFile>paind_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="226244650"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2478,9 +2655,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paine_1" ID="{915A337B-66B3-4A3B-954E-93B228C9DE6B}" ShortID="1024935706">
+												<AudioFileSource Name="paine_1" ID="{915A337B-66B3-4A3B-954E-93B228C9DE6B}">
 													<Language>SFX</Language>
 													<AudioFile>paine_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1024935706"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2505,9 +2685,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paine_2" ID="{D230F760-8FDF-4579-817D-00AD05AE9900}" ShortID="525218887">
+												<AudioFileSource Name="paine_2" ID="{D230F760-8FDF-4579-817D-00AD05AE9900}">
 													<Language>SFX</Language>
 													<AudioFile>paine_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="525218887"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2532,9 +2715,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paine_3" ID="{2C82D2AA-3135-4E51-9A2F-8CA87F6132D4}" ShortID="919142873">
+												<AudioFileSource Name="paine_3" ID="{2C82D2AA-3135-4E51-9A2F-8CA87F6132D4}">
 													<Language>SFX</Language>
 													<AudioFile>paine_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="919142873"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2587,9 +2773,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painh_1" ID="{793CAFB2-F33F-4B05-AF55-A2F67B283BA5}" ShortID="339261539">
+												<AudioFileSource Name="painh_1" ID="{793CAFB2-F33F-4B05-AF55-A2F67B283BA5}">
 													<Language>SFX</Language>
 													<AudioFile>painh_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="339261539"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2614,9 +2803,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painh_2" ID="{214EE1D4-4FDE-486C-9A58-7F52B8CF2669}" ShortID="408104808">
+												<AudioFileSource Name="painh_2" ID="{214EE1D4-4FDE-486C-9A58-7F52B8CF2669}">
 													<Language>SFX</Language>
 													<AudioFile>painh_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="408104808"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2641,9 +2833,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painh_3" ID="{68E0A566-F60E-4E81-94B7-39A9D17AA478}" ShortID="424141051">
+												<AudioFileSource Name="painh_3" ID="{68E0A566-F60E-4E81-94B7-39A9D17AA478}">
 													<Language>SFX</Language>
 													<AudioFile>painh_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="424141051"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2696,9 +2891,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paino_1" ID="{74333A73-7A78-47F9-B4BA-D2BE63585AAD}" ShortID="858495136">
+												<AudioFileSource Name="paino_1" ID="{74333A73-7A78-47F9-B4BA-D2BE63585AAD}">
 													<Language>SFX</Language>
 													<AudioFile>paino_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="858495136"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2723,9 +2921,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paino_2" ID="{B5D0A8D9-51CC-438D-BFD2-EFC83C8020A4}" ShortID="944893494">
+												<AudioFileSource Name="paino_2" ID="{B5D0A8D9-51CC-438D-BFD2-EFC83C8020A4}">
 													<Language>SFX</Language>
 													<AudioFile>paino_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="944893494"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2750,9 +2951,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="paino_3" ID="{C0E58018-B2E9-4064-AA6A-5B440316446C}" ShortID="371935772">
+												<AudioFileSource Name="paino_3" ID="{C0E58018-B2E9-4064-AA6A-5B440316446C}">
 													<Language>SFX</Language>
 													<AudioFile>paino_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="371935772"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2805,9 +3009,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painp_1" ID="{C4C8F7B8-310A-4F47-89B5-93BB766870D0}" ShortID="524366369">
+												<AudioFileSource Name="painp_1" ID="{C4C8F7B8-310A-4F47-89B5-93BB766870D0}">
 													<Language>SFX</Language>
 													<AudioFile>painp_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="524366369"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2832,9 +3039,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painp_2" ID="{DDC54578-BCFB-4110-93B6-4A453A562921}" ShortID="990523609">
+												<AudioFileSource Name="painp_2" ID="{DDC54578-BCFB-4110-93B6-4A453A562921}">
 													<Language>SFX</Language>
 													<AudioFile>painp_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="990523609"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2859,9 +3069,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painp_3" ID="{2EDB7249-1A66-42D5-AABC-64858ACAD370}" ShortID="620009095">
+												<AudioFileSource Name="painp_3" ID="{2EDB7249-1A66-42D5-AABC-64858ACAD370}">
 													<Language>SFX</Language>
 													<AudioFile>painp_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="620009095"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2913,9 +3126,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painr_1" ID="{9683B475-6B2B-4139-A09D-85F4C74CA00D}" ShortID="162814894">
+												<AudioFileSource Name="painr_1" ID="{9683B475-6B2B-4139-A09D-85F4C74CA00D}">
 													<Language>SFX</Language>
 													<AudioFile>painr_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="162814894"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2940,9 +3156,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painr_2" ID="{B2BABD86-585C-422B-A6F8-27FC8957F6AB}" ShortID="715743738">
+												<AudioFileSource Name="painr_2" ID="{B2BABD86-585C-422B-A6F8-27FC8957F6AB}">
 													<Language>SFX</Language>
 													<AudioFile>painr_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="715743738"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2967,9 +3186,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="painr_3" ID="{8DDBE64A-F360-4F66-8B5A-6D0EB15C0C36}" ShortID="44767741">
+												<AudioFileSource Name="painr_3" ID="{8DDBE64A-F360-4F66-8B5A-6D0EB15C0C36}">
 													<Language>SFX</Language>
 													<AudioFile>painr_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="44767741"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -2996,9 +3218,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="deathb" ID="{2E7DA7F4-551D-4815-9099-1D74B0B81B74}" ShortID="733001230">
+										<AudioFileSource Name="deathb" ID="{2E7DA7F4-551D-4815-9099-1D74B0B81B74}">
 											<Language>SFX</Language>
 											<AudioFile>deathb.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733001230"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3023,9 +3248,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="deathd" ID="{4BCCD088-2B36-4B1F-8231-503A2D1444DE}" ShortID="853768529">
+										<AudioFileSource Name="deathd" ID="{4BCCD088-2B36-4B1F-8231-503A2D1444DE}">
 											<Language>SFX</Language>
 											<AudioFile>deathd.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="853768529"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3050,9 +3278,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="deathh" ID="{1E47A005-1E14-44EC-BDA4-F6561A506F5E}" ShortID="783050661">
+										<AudioFileSource Name="deathh" ID="{1E47A005-1E14-44EC-BDA4-F6561A506F5E}">
 											<Language>SFX</Language>
 											<AudioFile>deathh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="783050661"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3200,12 +3431,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="rlaunch" ID="{A75D5CE0-6777-4D71-BEE7-81CF07910ECA}" ShortID="780627721">
+												<AudioFileSource Name="rlaunch" ID="{A75D5CE0-6777-4D71-BEE7-81CF07910ECA}">
 													<Language>SFX</Language>
 													<AudioFile>rlaunch.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="63730319"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="63730319"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3296,19 +3527,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="explode" ID="{9E9EC2B3-48F2-4E54-9999-46C0E5F0E0FC}" ShortID="244737804">
+														<AudioFileSource Name="explode" ID="{9E9EC2B3-48F2-4E54-9999-46C0E5F0E0FC}">
 															<Language>SFX</Language>
 															<AudioFile>explode.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="40101812"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="40101812"/>
+															</MediaIDList>
 														</AudioFileSource>
-														<AudioFileSource Name="AK_Explode" ID="{443DA63F-0024-4956-9612-DE10D7B5899B}" ShortID="707444816">
+														<AudioFileSource Name="AK_Explode" ID="{443DA63F-0024-4956-9612-DE10D7B5899B}">
 															<Language>SFX</Language>
 															<AudioFile>AK_Explode.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="163870415"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="163870415"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3333,12 +3564,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="explode2" ID="{CC6F7E3A-6EAE-431F-9AE8-E3B8A740E4F0}" ShortID="283965694">
+														<AudioFileSource Name="explode2" ID="{CC6F7E3A-6EAE-431F-9AE8-E3B8A740E4F0}">
 															<Language>SFX</Language>
 															<AudioFile>explode2.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="661668266"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="661668266"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3363,12 +3594,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="explode3" ID="{5EC0E244-DE3E-40CC-AF05-9A8ADB1FED30}" ShortID="527163290">
+														<AudioFileSource Name="explode3" ID="{5EC0E244-DE3E-40CC-AF05-9A8ADB1FED30}">
 															<Language>SFX</Language>
 															<AudioFile>explode3.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="503509662"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="503509662"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -3432,12 +3663,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="cg1" ID="{EC4BFA86-EC52-45D1-BD26-C0062647C291}" ShortID="452149668">
+										<AudioFileSource Name="cg1" ID="{EC4BFA86-EC52-45D1-BD26-C0062647C291}">
 											<Language>SFX</Language>
 											<AudioFile>cg1.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="596059532"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="596059532"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3462,19 +3693,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="outofammo" ID="{92E83C70-FAEB-4654-8C5D-0E2BA6446F30}" ShortID="311255824">
+										<AudioFileSource Name="outofammo" ID="{92E83C70-FAEB-4654-8C5D-0E2BA6446F30}">
 											<Language>SFX</Language>
 											<AudioFile>outofammo.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="352851121"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="352851121"/>
+											</MediaIDList>
 										</AudioFileSource>
-										<AudioFileSource Name="outofammo_01" ID="{383546D8-240A-4D2E-8EF2-42F9E1C69851}" ShortID="803137302">
+										<AudioFileSource Name="outofammo_01" ID="{383546D8-240A-4D2E-8EF2-42F9E1C69851}">
 											<Language>SFX</Language>
 											<AudioFile>outofammo.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="352851121"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="352851121"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -3508,12 +3739,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="weapload" ID="{BDB09C9D-D061-407A-A88B-3353008E7971}" ShortID="736237065">
+										<AudioFileSource Name="weapload" ID="{BDB09C9D-D061-407A-A88B-3353008E7971}">
 											<Language>SFX</Language>
 											<AudioFile>weapload.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="609226383"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="609226383"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<PositioningInfo>
@@ -3581,19 +3812,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="punch1" ID="{BED16838-57A8-478E-8EBB-9A887A453986}" ShortID="719476543">
+												<AudioFileSource Name="punch1" ID="{BED16838-57A8-478E-8EBB-9A887A453986}">
 													<Language>SFX</Language>
 													<AudioFile>punch1.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="167030580"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="167030580"/>
+													</MediaIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="AK_Punch_01" ID="{40974A13-C901-4CDE-A5FF-E0AB6FE02917}" ShortID="858742130">
+												<AudioFileSource Name="AK_Punch_01" ID="{40974A13-C901-4CDE-A5FF-E0AB6FE02917}">
 													<Language>SFX</Language>
 													<AudioFile>AK_Punch_01.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="863381042"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="863381042"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3620,12 +3851,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AK_Punch_02" ID="{309287D4-3D70-4165-83BA-E13E8CD3061F}" ShortID="269324759">
+												<AudioFileSource Name="AK_Punch_02" ID="{309287D4-3D70-4165-83BA-E13E8CD3061F}">
 													<Language>SFX</Language>
 													<AudioFile>AK_Punch_02.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="868366677"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="868366677"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3652,12 +3883,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AK_Punch_03" ID="{98C28EAB-12E3-4E14-8759-706C51A33E0F}" ShortID="680491363">
+												<AudioFileSource Name="AK_Punch_03" ID="{98C28EAB-12E3-4E14-8759-706C51A33E0F}">
 													<Language>SFX</Language>
 													<AudioFile>AK_Punch_03.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="670043076"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="670043076"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3684,12 +3915,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AK_Punch_04" ID="{FB82D80F-5907-4673-B20F-BC12D1DF7158}" ShortID="321103622">
+												<AudioFileSource Name="AK_Punch_04" ID="{FB82D80F-5907-4673-B20F-BC12D1DF7158}">
 													<Language>SFX</Language>
 													<AudioFile>AK_Punch_04.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="313854590"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="313854590"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3716,12 +3947,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="AK_Punch_05" ID="{8D557F52-904B-48BC-B440-F30F44BD2F1A}" ShortID="277496699">
+												<AudioFileSource Name="AK_Punch_05" ID="{8D557F52-904B-48BC-B440-F30F44BD2F1A}">
 													<Language>SFX</Language>
 													<AudioFile>AK_Punch_05.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="733787232"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="733787232"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3785,12 +4016,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="slimeball_1" ID="{A6F85FF8-46FB-4287-88FB-C72F195082D6}" ShortID="152950322">
+												<AudioFileSource Name="slimeball_1" ID="{A6F85FF8-46FB-4287-88FB-C72F195082D6}">
 													<Language>SFX</Language>
 													<AudioFile>slimeball_1.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="331178164"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="331178164"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3815,12 +4046,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="slimeball_2" ID="{DDB30300-B078-46AE-AA7E-FD6B86AC67FA}" ShortID="914525417">
+												<AudioFileSource Name="slimeball_2" ID="{DDB30300-B078-46AE-AA7E-FD6B86AC67FA}">
 													<Language>SFX</Language>
 													<AudioFile>slimeball_2.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1038750599"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1038750599"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3873,19 +4104,19 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="rifle_2" ID="{973F85AE-B021-4FC2-8E2D-6816669B39B9}" ShortID="461511749">
+												<AudioFileSource Name="rifle_2" ID="{973F85AE-B021-4FC2-8E2D-6816669B39B9}">
 													<Language>SFX</Language>
 													<AudioFile>rifle_2.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="508407008"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="508407008"/>
+													</MediaIDList>
 												</AudioFileSource>
-												<AudioFileSource Name="rifle_01" ID="{7ABD7884-B1D4-4256-A053-1AA2F76CAC6B}" ShortID="438293430">
+												<AudioFileSource Name="rifle_01" ID="{7ABD7884-B1D4-4256-A053-1AA2F76CAC6B}">
 													<Language>SFX</Language>
 													<AudioFile>rifle_2.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="508407008"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="508407008"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3956,12 +4187,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="explodemini1" ID="{FEA2138D-C99D-420E-B11E-FBB1ABA22943}" ShortID="273110301">
+												<AudioFileSource Name="explodemini1" ID="{FEA2138D-C99D-420E-B11E-FBB1ABA22943}">
 													<Language>SFX</Language>
 													<AudioFile>explodemini1.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="141265795"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="141265795"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -3986,12 +4217,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="explodemini2" ID="{FECCD90E-F274-4E19-AEC7-C5AF9843561A}" ShortID="475608941">
+												<AudioFileSource Name="explodemini2" ID="{FECCD90E-F274-4E19-AEC7-C5AF9843561A}">
 													<Language>SFX</Language>
 													<AudioFile>explodemini2.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="920964299"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="920964299"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4016,12 +4247,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="explodemini3" ID="{BE4454B2-E506-4015-A1A2-C43704523BC6}" ShortID="519329630">
+												<AudioFileSource Name="explodemini3" ID="{BE4454B2-E506-4015-A1A2-C43704523BC6}">
 													<Language>SFX</Language>
 													<AudioFile>explodemini3.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="24580226"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="24580226"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4066,12 +4297,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="flaunch" ID="{20537AC9-A41E-4DE6-80C6-53D3594916BC}" ShortID="341564463">
+												<AudioFileSource Name="flaunch" ID="{20537AC9-A41E-4DE6-80C6-53D3594916BC}">
 													<Language>SFX</Language>
 													<AudioFile>flaunch.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="725178632"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="725178632"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4123,12 +4354,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="iceball1" ID="{336AC43B-D20A-43CD-975D-1EFBF8AFDA3F}" ShortID="779643233">
+												<AudioFileSource Name="iceball1" ID="{336AC43B-D20A-43CD-975D-1EFBF8AFDA3F}">
 													<Language>SFX</Language>
 													<AudioFile>iceball1.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="141022160"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="141022160"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4153,12 +4384,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="iceball2" ID="{D91E9223-E7BF-4577-8BE5-05375DF3D952}" ShortID="1028642759">
+												<AudioFileSource Name="iceball2" ID="{D91E9223-E7BF-4577-8BE5-05375DF3D952}">
 													<Language>SFX</Language>
 													<AudioFile>iceball2.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="758758935"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="758758935"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4221,16 +4452,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{B7422161-3C22-45E0-92DD-641F7C9DB188}" ShortID="112274492">
+														<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{B7422161-3C22-45E0-92DD-641F7C9DB188}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.093494916730489"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.126300150671011"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_1.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="314196479"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="314196479"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4247,16 +4478,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{07D84DA7-7F3C-48EF-B4F3-74CB78A19917}" ShortID="824644997">
+														<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{07D84DA7-7F3C-48EF-B4F3-74CB78A19917}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.29196658207065"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.365778358436825"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_2.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="720737159"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="720737159"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4273,16 +4504,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{3F66AF24-190B-47B6-A228-304C9AEF13E9}" ShortID="1054633949">
+														<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{3F66AF24-190B-47B6-A228-304C9AEF13E9}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.249319777947971"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.39366280728627"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_3.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="688698589"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="688698589"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4299,16 +4530,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{7536630E-B95C-4566-A507-A5B43C91369B}" ShortID="574985621">
+														<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{7536630E-B95C-4566-A507-A5B43C91369B}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.0590494210929405"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.200111927037187"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_4.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="690631133"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="690631133"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4325,12 +4556,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{EC77DC83-CCEE-475E-BEB4-0074FE7155BF}" ShortID="40332019">
+														<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{EC77DC83-CCEE-475E-BEB4-0074FE7155BF}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_5.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="543768426"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="543768426"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4347,12 +4578,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{68B0ACBA-45C1-4136-90A0-251206AD3E93}" ShortID="979538194">
+														<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{68B0ACBA-45C1-4136-90A0-251206AD3E93}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_6.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1028430260"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="1028430260"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4369,12 +4600,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{51C0D550-3B2A-4D4E-A3F3-23D4ED02F789}" ShortID="1012902190">
+														<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{51C0D550-3B2A-4D4E-A3F3-23D4ED02F789}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_7.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="215199306"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="215199306"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4391,12 +4622,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{BF2AD8A2-4090-42F3-8004-28D7B12A855C}" ShortID="94671458">
+														<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{BF2AD8A2-4090-42F3-8004-28D7B12A855C}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_8.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="802811046"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="802811046"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4439,16 +4670,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{736A6067-844F-420F-880A-2DEBAF6E9CAD}" ShortID="854802106">
+														<AudioFileSource Name="ShotgunShellsConcrete_1" ID="{736A6067-844F-420F-880A-2DEBAF6E9CAD}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.214874282310422"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.395303068983296"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_1.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="201601495"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="201601495"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4465,16 +4696,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{58BAE4E5-1398-490A-A644-D1B3B3029D68}" ShortID="182569233">
+														<AudioFileSource Name="ShotgunShellsConcrete_2" ID="{58BAE4E5-1398-490A-A644-D1B3B3029D68}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.305088675646859"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.369058881830878"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_2.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="583225874"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="583225874"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4491,16 +4722,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{46658FD2-8C93-41A9-972D-7AFDAD0BD701}" ShortID="83558804">
+														<AudioFileSource Name="ShotgunShellsConcrete_3" ID="{46658FD2-8C93-41A9-972D-7AFDAD0BD701}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.193550880249083"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.392022545589244"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_3.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="577120568"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="577120568"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4517,16 +4748,16 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{2CA3BE5E-9B0A-43AA-BC54-C6C9318D1E3E}" ShortID="763562288">
+														<AudioFileSource Name="ShotgunShellsConcrete_4" ID="{2CA3BE5E-9B0A-43AA-BC54-C6C9318D1E3E}">
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.278844488494441"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.196831403643135"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_4.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="504102903"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="504102903"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4543,12 +4774,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{62B364A3-895F-4B4E-AF6D-FAC89C1C0A8A}" ShortID="389778347">
+														<AudioFileSource Name="ShotgunShellsConcrete_5" ID="{62B364A3-895F-4B4E-AF6D-FAC89C1C0A8A}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_5.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="543768426"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="543768426"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4565,12 +4796,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{BAD350CC-4EC2-4BFF-A986-00C4CFB9D292}" ShortID="176568207">
+														<AudioFileSource Name="ShotgunShellsConcrete_6" ID="{BAD350CC-4EC2-4BFF-A986-00C4CFB9D292}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_6.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="1028430260"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="1028430260"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4587,12 +4818,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{DA623173-FABE-4B05-A84B-82C58EEC130A}" ShortID="12234278">
+														<AudioFileSource Name="ShotgunShellsConcrete_7" ID="{DA623173-FABE-4B05-A84B-82C58EEC130A}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_7.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="215199306"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="215199306"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4609,12 +4840,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{FB414166-5DA8-42B3-8B71-BCACD10066DD}" ShortID="536782822">
+														<AudioFileSource Name="ShotgunShellsConcrete_8" ID="{FB414166-5DA8-42B3-8B71-BCACD10066DD}">
 															<Language>SFX</Language>
 															<AudioFile>Shotgun Shells\ShotgunShellsConcrete_8.wav</AudioFile>
-															<ConvertedFileIDList>
-																<File ID="802811046"/>
-															</ConvertedFileIDList>
+															<MediaIDList>
+																<MediaID ID="802811046"/>
+															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
@@ -4654,7 +4885,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 											<ChildrenList>
 												<Path2D Name="Shotgun Shells_Path" ID="{A15DAD94-F46B-4D04-A760-26AB68981C18}">
 													<PropertyList>
-														<Property Name="Duration" Type="int32" Value="3000"/>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
 													</PropertyList>
 													<PointList>
 														<Point>
@@ -4786,12 +5017,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Shotgun_Blast" ID="{4AE5A74C-BC2C-490C-B460-77453850E829}" ShortID="944053186">
+										<AudioFileSource Name="Shotgun_Blast" ID="{4AE5A74C-BC2C-490C-B460-77453850E829}">
 											<Language>SFX</Language>
 											<AudioFile>Shotgun_Blast.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="713286434"/>
-											</ConvertedFileIDList>
+											<MediaIDList>
+												<MediaID ID="713286434"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -4830,12 +5061,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Shotgun_Pump" ID="{C489B29C-B77C-4842-A425-080A06760335}" ShortID="656876226">
+												<AudioFileSource Name="Shotgun_Pump" ID="{C489B29C-B77C-4842-A425-080A06760335}">
 													<Language>SFX</Language>
 													<AudioFile>Shotgun_Pump.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="1042428374"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="1042428374"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4864,15 +5095,15 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Shotgun_Pump" ID="{D99501B3-BD1D-4138-A61C-2F270293BB70}" ShortID="830773208">
+												<AudioFileSource Name="Shotgun_Pump" ID="{D99501B3-BD1D-4138-A61C-2F270293BB70}">
 													<PropertyList>
 														<Property Name="TrimBegin" Type="Real64" Value="0.0667709850680523"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Shotgun_Pump.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="886501766"/>
-													</ConvertedFileIDList>
+													<MediaIDList>
+														<MediaID ID="886501766"/>
+													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
@@ -4969,9 +5200,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="signal01" ID="{0593CEAC-68A3-47B6-A79D-D63E9797C701}" ShortID="187024402">
+										<AudioFileSource Name="signal01" ID="{0593CEAC-68A3-47B6-A79D-D63E9797C701}">
 											<Language>SFX</Language>
 											<AudioFile>signal01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="187024402"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5008,9 +5242,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="signal02" ID="{3ACAC2FA-9FE1-4EBB-977B-87C3C4432C84}" ShortID="603800779">
+										<AudioFileSource Name="signal02" ID="{3ACAC2FA-9FE1-4EBB-977B-87C3C4432C84}">
 											<Language>SFX</Language>
 											<AudioFile>signal02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="603800779"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5061,9 +5298,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter01" ID="{37B94FD7-1BB8-49C7-887F-5CBCFCA51489}" ShortID="245661189">
+										<AudioFileSource Name="enter01" ID="{37B94FD7-1BB8-49C7-887F-5CBCFCA51489}">
 											<Language>SFX</Language>
 											<AudioFile>enter01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="245661189"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5083,9 +5323,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter02" ID="{84194FD5-13A9-44F5-ADB5-9556D66BEA8F}" ShortID="396065929">
+										<AudioFileSource Name="enter02" ID="{84194FD5-13A9-44F5-ADB5-9556D66BEA8F}">
 											<Language>SFX</Language>
 											<AudioFile>enter02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="396065929"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5105,9 +5348,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter03" ID="{58A29DDE-C6FB-4068-A5FD-BF44AE1FDAA7}" ShortID="579081663">
+										<AudioFileSource Name="enter03" ID="{58A29DDE-C6FB-4068-A5FD-BF44AE1FDAA7}">
 											<Language>SFX</Language>
 											<AudioFile>enter03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="579081663"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5127,9 +5373,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter04" ID="{2AED3152-1D86-4AD8-9BA6-04F2D17CB460}" ShortID="504552545">
+										<AudioFileSource Name="enter04" ID="{2AED3152-1D86-4AD8-9BA6-04F2D17CB460}">
 											<Language>SFX</Language>
 											<AudioFile>enter04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="504552545"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5149,9 +5398,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter05" ID="{40C52C3A-CA8E-480F-B961-7E4F79E5FE88}" ShortID="705228804">
+										<AudioFileSource Name="enter05" ID="{40C52C3A-CA8E-480F-B961-7E4F79E5FE88}">
 											<Language>SFX</Language>
 											<AudioFile>enter05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="705228804"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5171,9 +5423,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter06" ID="{16F43ECD-7B03-4B33-B61C-F748FB0D49FB}" ShortID="882747087">
+										<AudioFileSource Name="enter06" ID="{16F43ECD-7B03-4B33-B61C-F748FB0D49FB}">
 											<Language>SFX</Language>
 											<AudioFile>enter06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="882747087"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5193,9 +5448,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter07" ID="{BC07C748-49E9-4201-888F-61C1BF1E6E6C}" ShortID="405744097">
+										<AudioFileSource Name="enter07" ID="{BC07C748-49E9-4201-888F-61C1BF1E6E6C}">
 											<Language>SFX</Language>
 											<AudioFile>enter07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="405744097"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5215,9 +5473,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter08" ID="{5A1476A7-E89D-462E-B982-940154F0BE4F}" ShortID="965577559">
+										<AudioFileSource Name="enter08" ID="{5A1476A7-E89D-462E-B982-940154F0BE4F}">
 											<Language>SFX</Language>
 											<AudioFile>enter08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="965577559"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5237,9 +5498,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter09" ID="{7541AB63-485A-4588-AF6E-C276247D32DB}" ShortID="819733394">
+										<AudioFileSource Name="enter09" ID="{7541AB63-485A-4588-AF6E-C276247D32DB}">
 											<Language>SFX</Language>
 											<AudioFile>enter09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="819733394"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5259,9 +5523,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter10" ID="{B3341FBD-91BC-4B60-A132-F1D1D5B721E1}" ShortID="55290557">
+										<AudioFileSource Name="enter10" ID="{B3341FBD-91BC-4B60-A132-F1D1D5B721E1}">
 											<Language>SFX</Language>
 											<AudioFile>enter10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="55290557"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5281,9 +5548,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter11" ID="{7C0039B2-76A7-4C1B-A98E-B585E6BBF2EE}" ShortID="651618676">
+										<AudioFileSource Name="enter11" ID="{7C0039B2-76A7-4C1B-A98E-B585E6BBF2EE}">
 											<Language>SFX</Language>
 											<AudioFile>enter11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="651618676"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5303,9 +5573,12 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="enter12" ID="{357A9F08-0FC7-4099-99F8-13E08B74FF6A}" ShortID="209784911">
+										<AudioFileSource Name="enter12" ID="{357A9F08-0FC7-4099-99F8-13E08B74FF6A}">
 											<Language>SFX</Language>
 											<AudioFile>enter12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="209784911"/>
+											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
@@ -5316,7 +5589,7 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 							<PositioningInfo>
 								<Panner Name="" ID="{1FF0FBD9-2FAD-41B0-863F-69ABF81AFDBB}">
 									<PropertyList>
-										<Property Name="PanX" Type="Real64" Value="-5.55111512312578E-017"/>
+										<Property Name="PanX" Type="Real64" Value="-5.55111512312578E-17"/>
 									</PropertyList>
 								</Panner>
 							</PositioningInfo>
