@@ -659,6 +659,11 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
