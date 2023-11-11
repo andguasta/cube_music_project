@@ -57,10 +57,15 @@
 								</Sound>
 								<Sound Name="Acid6" ID="{AB7C0126-9CC4-499B-8505-B378594A6DF9}" ShortID="52">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>500</Value>
+											</ValueList>
+										</Property>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
