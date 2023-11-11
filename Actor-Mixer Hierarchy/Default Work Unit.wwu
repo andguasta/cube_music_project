@@ -600,7 +600,17 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 								</ActorMixer>
 								<Sound Name="get_armour" ID="{FABA47BC-88FF-43D3-8330-65EB4EDA7010}" ShortID="1010642449">
 									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>42</Value>
+											</ValueList>
+										</Property>
 										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-610</Value>
+											</ValueList>
+										</Property>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
@@ -622,6 +632,14 @@ This Audio Content cannot be used or modified for a commercial purpose nor for p
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="get_armour" ID="{4E565569-EC6B-4704-9EB9-DF3BA592F64C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.117991307634165"/>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.341249370118418"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>get_armour.wav</AudioFile>
 											<MediaIDList>
